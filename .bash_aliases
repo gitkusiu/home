@@ -18,17 +18,15 @@ gt(){ scp kusiu@tadek.ftmc.uam.es:$1 $2 ; }
 
 
 #### Tarkil  #####
-#alias star='ssh -X jelen@tarkil.cesnte.cz'
-alias star='ssh jelen@tarkil.cesnet.cz'
-ptar(){ scp $1 jelen@tarkil.cesnet.cz:$2 ; }
-gtar(){ scp jelen@tarkil.cesnet.cz:$1 $2 ; }
-
-
-#alias star='ssh -X jelen@tarkil.cesnte.cz'
 alias star='ssh kosmider@tarkil.cesnet.cz'
 ptar(){ scp $1 kosmider@tarkil.cesnet.cz:$2 ; }
 gtar(){ scp kosmider@tarkil.cesnet.cz:$1 $2 ; }
 
+
+#### Tarkil Jelen  #####
+alias starj='ssh jelen@tarkil.cesnet.cz'
+ptarj(){ scp $1 jelen@tarkil.cesnet.cz:$2 ; }
+gtarj(){ scp jelen@tarkil.cesnet.cz:$1 $2 ; }
 
 
 #### MareNostrum 3  #####
