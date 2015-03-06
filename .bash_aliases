@@ -11,6 +11,11 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 
+######## Git Aliases #########
+alias gitlog='git log -n 4'
+
+
+
 #### TADEK tadek.ftmc.uam.es  #####
 alias st='ssh -X kusiu@tadek.ftmc.uam.es'
 pt(){ scp $1 kusiu@tadek.ftmc.uam.es:$2 ; }
