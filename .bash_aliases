@@ -27,6 +27,11 @@ alias star='ssh kosmider@tarkil.cesnet.cz'
 ptar(){ scp $1 kosmider@tarkil.cesnet.cz:$2 ; }
 gtar(){ scp kosmider@tarkil.cesnet.cz:$1 $2 ; }
 
+#### nympha.zcu.cz  #####
+alias snympha='ssh kosmider@nympha.zcu.cz'
+pnympha(){ scp $1 kosmider@nympha.zcu.cz:$2 ; }
+gnympha(){ scp kosmider@nympha.zcu.cz:$1 $2 ; }
+
 
 #### Tarkil Jelen  #####
 alias starj='ssh jelen@tarkil.cesnet.cz'
