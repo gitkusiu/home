@@ -11,7 +11,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -21,6 +21,7 @@ Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
 Plugin 'craigemery/vim-autotag'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
 
@@ -35,6 +36,8 @@ set hlsearch
 set expandtab
 set tabstop=4
 syntax on 
+set syntax=whitespace
 
 nmap <F8> :TagbarToggle<CR>
+nmap <F7> :NERDTree<CR>
 
